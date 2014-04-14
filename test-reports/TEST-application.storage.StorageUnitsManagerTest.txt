@@ -1,0 +1,34 @@
+Testsuite: application.storage.StorageUnitsManagerTest
+Tests run: 6, Failures: 2, Errors: 0, Time elapsed: 0.234 sec
+------------- Standard Output ---------------
+Testing Constraint: Storage Unit may not have two Product Groups with the same name
+Set up failed
+Testing Constraint: Storage Unit name must be non-empty
+Testing Constraint: Storage Unit name must be unique
+Set up failed
+Testing Constraint: Product Group name must be non-empty
+Testing Constraint: Product Group name must be unique
+Set up failed
+Testing Constraint: Product Group's parent must be non-empty
+Set up failed
+Testing Constraint: Three month supply
+Set up failed
+Testing Constraint: Product Group many not have two children with the same name
+------------- ---------------- ---------------
+
+Testcase: testConstraintSU2 took 0.156 sec
+Testcase: testConstraintSU1 took 0.015 sec
+Testcase: testConstraintPG1 took 0 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at application.storage.StorageUnitsManagerTest.testConstraintPG1(StorageUnitsManagerTest.java:175)
+
+Testcase: testConstraintPG2 took 0.015 sec
+Testcase: testConstraintPG3 took 0 sec
+Testcase: testConstraintPG4 took 0 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at application.storage.StorageUnitsManagerTest.testConstraintPG4(StorageUnitsManagerTest.java:224)
+

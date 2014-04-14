@@ -1,0 +1,25 @@
+Testsuite: application.plugins.GooglePluginTest
+Tests run: 8, Failures: 1, Errors: 0, Time elapsed: 1.919 sec
+------------- Standard Output ---------------
+Looking for: Cytosport Muscle Milk RTD, Chocolate, 12 ea
+in: Cytosport Muscle Milk 500 Ml Chocolate Creme Ready-To-Drink Protein Shakes - 12 X Cartons
+findProduct
+Looking for: Tcl - 40" Class - Lcd - 1080p - 60hz - Hdtv
+in: Tcl - 40" Class - Lcd - 1080p - 60hz - Hdtv
+Looking for: Akro-mils 1092793 30420 Dividable Plastic Storage Nestable
+in: Akro-mils 1092793 30420 Dividable Plastic Storage Nestable
+------------- ---------------- ---------------
+
+Testcase: testFindProduct2 took 1.326 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at application.plugins.GooglePluginTest.testFindProduct2(GooglePluginTest.java:62)
+
+Testcase: testFindProduct3 took 0.063 sec
+Testcase: testFindProduct took 0.093 sec
+Testcase: testFindProduct4 took 0.109 sec
+Testcase: testFindProduct5 took 0.062 sec
+Testcase: testFindProduct6 took 0.063 sec
+Testcase: testFindProduct7 took 0.062 sec
+Testcase: testFindProduct8 took 0.062 sec

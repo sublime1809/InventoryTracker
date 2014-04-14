@@ -1,0 +1,39 @@
+Testsuite: dataPersistence.SQL.SQLProductDAOTest
+Tests run: 4, Failures: 0, Errors: 4, Time elapsed: 0.094 sec
+
+Testcase: testGetProducts took 0.062 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at dataPersistence.SQL.SQLFactory.createDataBase(SQLFactory.java:220)
+	at dataPersistence.SQL.SQLFactory.<init>(SQLFactory.java:53)
+	at dataPersistence.PersistenceManager.makeNewFactory(PersistenceManager.java:108)
+	at dataPersistence.SQL.SQLProductDAOTest.setUp(SQLProductDAOTest.java:38)
+
+Testcase: testCreateProduct took 0 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at dataPersistence.SQL.SQLFactory.createDataBase(SQLFactory.java:220)
+	at dataPersistence.SQL.SQLFactory.<init>(SQLFactory.java:53)
+	at dataPersistence.PersistenceManager.makeNewFactory(PersistenceManager.java:108)
+	at dataPersistence.SQL.SQLProductDAOTest.setUp(SQLProductDAOTest.java:38)
+
+Testcase: testUpdateProduct took 0 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at dataPersistence.SQL.SQLFactory.createDataBase(SQLFactory.java:220)
+	at dataPersistence.SQL.SQLFactory.<init>(SQLFactory.java:53)
+	at dataPersistence.PersistenceManager.makeNewFactory(PersistenceManager.java:108)
+	at dataPersistence.SQL.SQLProductDAOTest.setUp(SQLProductDAOTest.java:38)
+
+Testcase: testRemoveProduct took 0 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at dataPersistence.SQL.SQLFactory.createDataBase(SQLFactory.java:220)
+	at dataPersistence.SQL.SQLFactory.<init>(SQLFactory.java:53)
+	at dataPersistence.PersistenceManager.makeNewFactory(PersistenceManager.java:108)
+	at dataPersistence.SQL.SQLProductDAOTest.setUp(SQLProductDAOTest.java:38)
+

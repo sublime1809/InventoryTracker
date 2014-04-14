@@ -1,0 +1,7 @@
+Testsuite: application.plugins.UPCDatabasePluginTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.344 sec
+------------- Standard Output ---------------
+findProduct
+------------- ---------------- ---------------
+
+Testcase: testFindProduct took 0.312 sec

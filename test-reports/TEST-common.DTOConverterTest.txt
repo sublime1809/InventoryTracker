@@ -1,0 +1,17 @@
+Testsuite: common.DTOConverterTest
+Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 0.095 sec
+------------- Standard Output ---------------
+itemToItemDTO
+itemDTOToItem
+productToProductDTO
+productDTOToProduct
+containerToContainerDTO
+containerDTOToContainer
+------------- ---------------- ---------------
+
+Testcase: testItemToItemDTO took 0 sec
+Testcase: testItemDTOToItem took 0 sec
+Testcase: testProductToProductDTO took 0 sec
+Testcase: testProductDTOToProduct took 0 sec
+Testcase: testContainerToContainerDTO took 0 sec
+Testcase: testContainerDTOToContainer took 0 sec

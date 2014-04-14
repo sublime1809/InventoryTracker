@@ -1,0 +1,11 @@
+Testsuite: common.BarcodeTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.062 sec
+------------- Standard Output ---------------
+generate
+isValid
+compareTo
+------------- ---------------- ---------------
+
+Testcase: testGenerate took 0.016 sec
+Testcase: testIsValid took 0 sec
+Testcase: testCompareTo took 0 sec

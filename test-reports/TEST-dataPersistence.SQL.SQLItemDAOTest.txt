@@ -1,0 +1,12 @@
+Testsuite: dataPersistence.SQL.SQLItemDAOTest
+Tests run: 0, Failures: 0, Errors: 1, Time elapsed: 0.078 sec
+
+Testcase: dataPersistence.SQL.SQLItemDAOTest took 0 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at dataPersistence.SQL.SQLFactory.createDataBase(SQLFactory.java:220)
+	at dataPersistence.SQL.SQLFactory.<init>(SQLFactory.java:53)
+	at dataPersistence.PersistenceManager.makeNewFactory(PersistenceManager.java:108)
+	at dataPersistence.SQL.SQLItemDAOTest.setUpClass(SQLItemDAOTest.java:34)
+

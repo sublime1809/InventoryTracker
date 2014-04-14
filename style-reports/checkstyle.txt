@@ -1,0 +1,13 @@
+Starting audit...
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\application\ItemsFacade.java:170: Line is longer than 100 characters.
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\application\ItemsFacade.java:253: Line is longer than 100 characters.
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\application\ItemsFacade.java:267: Line is longer than 100 characters.
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\application\product\ProductsManager.java:425: Line is longer than 100 characters.
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\application\product\ProductsManager.java:438: Line is longer than 100 characters.
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\application\product\ProductsManager.java:488: Line is longer than 100 characters.
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\application\reports\dataObjects\ProductStatisticsData.java:157: Line is longer than 100 characters.
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\dataPersistence\SQL\SqlDao.java:57:5: Cyclomatic Complexity is 17 (max allowed is 10).
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\dataPersistence\SQL\SqlDao.java:57:5: NPath Complexity is 487 (max allowed is 200).
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\dataPersistence\SQL\SqlDao.java:143:5: Cyclomatic Complexity is 15 (max allowed is 10).
+C:\Users\skitto\Dropbox\cs340\Inventory-Tracker\src\gui\productgroup\EditProductGroupController.java:69: Line is longer than 100 characters.
+Audit done.

@@ -1,0 +1,449 @@
+Testsuite: application.reports.directors.StatisticsReportDirectorTest
+Tests run: 47, Failures: 7, Errors: 1, Time elapsed: 3.089 sec
+------------- Standard Output ---------------
+buildReport
+Report period: Sat Sep 01 00:00:00 MDT 2012 - Sat Dec 01 00:00:00 MST 2012
+400000000015: Mon Dec 03 00:00:00 MST 2012 - null
+400000000022: Mon Dec 03 00:00:00 MST 2012 - null
+400000000039: Mon Dec 03 00:00:00 MST 2012 - null
+400000000046: Mon Dec 03 00:00:00 MST 2012 - null
+400000000053: Mon Dec 03 00:00:00 MST 2012 - null
+400000000060: Mon Dec 03 00:00:00 MST 2012 - null
+400000000077: Mon Dec 03 00:00:00 MST 2012 - null
+400000000084: Mon Dec 03 00:00:00 MST 2012 - null
+400000000091: Mon Dec 03 00:00:00 MST 2012 - null
+400000000107: Mon Dec 03 00:00:00 MST 2012 - null
+400000000114: Mon Dec 03 00:00:00 MST 2012 - null
+400000000121: Mon Dec 03 00:00:00 MST 2012 - null
+400000000138: Mon Dec 03 00:00:00 MST 2012 - null
+400000000145: Mon Dec 03 00:00:00 MST 2012 - null
+400000000152: Mon Dec 03 00:00:00 MST 2012 - null
+400000000169: Mon Dec 03 00:00:00 MST 2012 - null
+400000000176: Mon Dec 03 00:00:00 MST 2012 - null
+400000000183: Mon Dec 03 00:00:00 MST 2012 - null
+400000000190: Mon Dec 03 00:00:00 MST 2012 - null
+400000000206: Mon Dec 03 00:00:00 MST 2012 - null
+400000000213: Mon Dec 03 00:00:00 MST 2012 - null
+400000000220: Mon Dec 03 00:00:00 MST 2012 - null
+400000000237: Mon Dec 03 00:00:00 MST 2012 - null
+400000000244: Mon Dec 03 00:00:00 MST 2012 - null
+400000000251: Mon Dec 03 00:00:00 MST 2012 - null
+400000000268: Mon Dec 03 00:00:00 MST 2012 - null
+Product A: Mon Dec 03 00:00:00 MST 2012
+Product B: Mon Dec 03 00:00:00 MST 2012
+Product C: Mon Dec 03 00:00:00 MST 2012
+Product D: Mon Dec 03 00:00:00 MST 2012
+Product E: Mon Dec 03 00:00:00 MST 2012
+Test 1A
+Report period: Sat Aug 04 00:00:00 MDT 2012 - Mon Feb 04 00:00:00 MST 2013
+400000000275: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000282: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000299: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000305: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000312: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000329: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000336: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000343: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000350: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000367: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000374: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000381: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000398: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000404: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000411: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000428: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000435: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000442: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000459: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000466: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000473: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000480: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000497: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000503: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000510: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000527: Wed Aug 08 00:00:00 MDT 2012 - null
+Product A: Wed Aug 08 00:00:00 MDT 2012
+Product B: Wed Aug 08 00:00:00 MDT 2012
+Product C: Wed Aug 08 00:00:00 MDT 2012
+Product D: Wed Aug 08 00:00:00 MDT 2012
+Product E: Wed Aug 08 00:00:00 MDT 2012
+Test 1B
+Report period: Sun Nov 04 00:00:00 MDT 2012 - Mon Feb 04 00:00:00 MST 2013
+400000000534: Thu Nov 08 00:00:00 MST 2012 - null
+400000000541: Thu Nov 08 00:00:00 MST 2012 - null
+400000000558: Thu Nov 08 00:00:00 MST 2012 - null
+400000000565: Thu Nov 08 00:00:00 MST 2012 - null
+400000000572: Thu Nov 08 00:00:00 MST 2012 - null
+400000000589: Thu Nov 08 00:00:00 MST 2012 - null
+400000000596: Thu Nov 08 00:00:00 MST 2012 - null
+400000000602: Thu Nov 08 00:00:00 MST 2012 - null
+400000000619: Thu Nov 08 00:00:00 MST 2012 - null
+400000000626: Thu Nov 08 00:00:00 MST 2012 - null
+400000000633: Thu Nov 08 00:00:00 MST 2012 - null
+400000000640: Thu Nov 08 00:00:00 MST 2012 - null
+400000000657: Thu Nov 08 00:00:00 MST 2012 - null
+400000000664: Thu Nov 08 00:00:00 MST 2012 - null
+400000000671: Thu Nov 08 00:00:00 MST 2012 - null
+400000000688: Thu Nov 08 00:00:00 MST 2012 - null
+400000000695: Thu Nov 08 00:00:00 MST 2012 - null
+400000000701: Thu Nov 08 00:00:00 MST 2012 - null
+400000000718: Thu Nov 08 00:00:00 MST 2012 - null
+400000000725: Thu Nov 08 00:00:00 MST 2012 - null
+400000000732: Thu Nov 08 00:00:00 MST 2012 - null
+400000000749: Thu Nov 08 00:00:00 MST 2012 - null
+400000000756: Thu Nov 08 00:00:00 MST 2012 - null
+400000000763: Thu Nov 08 00:00:00 MST 2012 - null
+400000000770: Thu Nov 08 00:00:00 MST 2012 - null
+400000000787: Thu Nov 08 00:00:00 MST 2012 - null
+Product A: Thu Nov 08 00:00:00 MST 2012
+Product B: Thu Nov 08 00:00:00 MST 2012
+Product C: Thu Nov 08 00:00:00 MST 2012
+Product D: Thu Nov 08 00:00:00 MST 2012
+Product E: Thu Nov 08 00:00:00 MST 2012
+Test 1C
+Report period: Sat Aug 04 00:00:00 MDT 2012 - Sun Nov 04 00:00:00 MDT 2012
+400000000794: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000800: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000817: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000824: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000831: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000848: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000855: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000862: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000879: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000886: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000893: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000909: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000916: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000923: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000930: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000947: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000954: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000961: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000978: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000985: Wed Aug 08 00:00:00 MDT 2012 - null
+400000000992: Wed Aug 08 00:00:00 MDT 2012 - null
+400000001005: Wed Aug 08 00:00:00 MDT 2012 - null
+400000001012: Wed Aug 08 00:00:00 MDT 2012 - null
+400000001029: Wed Aug 08 00:00:00 MDT 2012 - null
+400000001036: Wed Aug 08 00:00:00 MDT 2012 - null
+400000001043: Wed Aug 08 00:00:00 MDT 2012 - null
+Product A: Wed Aug 08 00:00:00 MDT 2012
+Product B: Wed Aug 08 00:00:00 MDT 2012
+Product C: Wed Aug 08 00:00:00 MDT 2012
+Product D: Wed Aug 08 00:00:00 MDT 2012
+Product E: Wed Aug 08 00:00:00 MDT 2012
+Test 2A
+Report period: Sat Jan 01 00:00:00 MST 2011 - Tue Jun 05 00:00:00 MDT 2012
+400000001050: Wed Jan 05 00:00:00 MST 2011 - null
+400000001067: Wed Jan 05 00:00:00 MST 2011 - null
+400000001074: Wed Jan 05 00:00:00 MST 2011 - null
+400000001081: Wed Jan 05 00:00:00 MST 2011 - null
+400000001098: Wed Jan 05 00:00:00 MST 2011 - null
+400000001104: Wed Jan 05 00:00:00 MST 2011 - null
+400000001111: Wed Jan 05 00:00:00 MST 2011 - null
+400000001128: Wed Jan 05 00:00:00 MST 2011 - null
+400000001135: Wed Jan 05 00:00:00 MST 2011 - null
+400000001142: Wed Jan 05 00:00:00 MST 2011 - null
+400000001159: Wed Jan 05 00:00:00 MST 2011 - null
+400000001166: Wed Jan 05 00:00:00 MST 2011 - null
+400000001173: Wed Jan 05 00:00:00 MST 2011 - null
+400000001180: Wed Jan 05 00:00:00 MST 2011 - null
+400000001197: Wed Jan 05 00:00:00 MST 2011 - null
+400000001203: Wed Jan 05 00:00:00 MST 2011 - null
+400000001210: Wed Jan 05 00:00:00 MST 2011 - null
+400000001227: Wed Jan 05 00:00:00 MST 2011 - null
+400000001234: Wed Jan 05 00:00:00 MST 2011 - null
+400000001241: Wed Jan 05 00:00:00 MST 2011 - null
+400000001258: Wed Jan 05 00:00:00 MST 2011 - null
+400000001265: Wed Jan 05 00:00:00 MST 2011 - null
+400000001272: Wed Jan 05 00:00:00 MST 2011 - null
+400000001289: Wed Jan 05 00:00:00 MST 2011 - null
+400000001296: Wed Jan 05 00:00:00 MST 2011 - null
+400000001302: Wed Jan 05 00:00:00 MST 2011 - null
+Product A: Wed Jan 05 00:00:00 MST 2011
+Product B: Wed Jan 05 00:00:00 MST 2011
+Product C: Wed Jan 05 00:00:00 MST 2011
+Product D: Wed Jan 05 00:00:00 MST 2011
+Product E: Wed Jan 05 00:00:00 MST 2011
+Test 2B
+Report period: Sun Mar 11 00:00:00 MST 2012 - Mon Jun 11 00:00:00 MDT 2012
+400000001319: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001326: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001333: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001340: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001357: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001364: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001371: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001388: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001395: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001401: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001418: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001425: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001432: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001449: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001456: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001463: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001470: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001487: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001494: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001500: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001517: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001524: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001531: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001548: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001555: Thu Mar 15 00:00:00 MDT 2012 - null
+400000001562: Thu Mar 15 00:00:00 MDT 2012 - null
+Product A: Thu Mar 15 00:00:00 MDT 2012
+Product B: Thu Mar 15 00:00:00 MDT 2012
+Product C: Thu Mar 15 00:00:00 MDT 2012
+Product D: Thu Mar 15 00:00:00 MDT 2012
+Product E: Thu Mar 15 00:00:00 MDT 2012
+
+Test 2C
+Report period: Wed Jan 11 00:00:00 MST 2012 - Sun Mar 11 00:00:00 MST 2012
+400000001579: Sun Jan 15 00:00:00 MST 2012 - null
+400000001586: Sun Jan 15 00:00:00 MST 2012 - null
+400000001593: Sun Jan 15 00:00:00 MST 2012 - null
+400000001609: Sun Jan 15 00:00:00 MST 2012 - null
+400000001616: Sun Jan 15 00:00:00 MST 2012 - null
+400000001623: Sun Jan 15 00:00:00 MST 2012 - null
+400000001630: Sun Jan 15 00:00:00 MST 2012 - null
+400000001647: Sun Jan 15 00:00:00 MST 2012 - null
+400000001654: Sun Jan 15 00:00:00 MST 2012 - null
+400000001661: Sun Jan 15 00:00:00 MST 2012 - null
+400000001678: Sun Jan 15 00:00:00 MST 2012 - null
+400000001685: Sun Jan 15 00:00:00 MST 2012 - null
+400000001692: Sun Jan 15 00:00:00 MST 2012 - null
+400000001708: Sun Jan 15 00:00:00 MST 2012 - null
+400000001715: Sun Jan 15 00:00:00 MST 2012 - null
+400000001722: Sun Jan 15 00:00:00 MST 2012 - null
+400000001739: Sun Jan 15 00:00:00 MST 2012 - null
+400000001746: Sun Jan 15 00:00:00 MST 2012 - null
+400000001753: Sun Jan 15 00:00:00 MST 2012 - null
+400000001760: Sun Jan 15 00:00:00 MST 2012 - null
+400000001777: Sun Jan 15 00:00:00 MST 2012 - null
+400000001784: Sun Jan 15 00:00:00 MST 2012 - null
+400000001791: Sun Jan 15 00:00:00 MST 2012 - null
+400000001807: Sun Jan 15 00:00:00 MST 2012 - null
+400000001814: Sun Jan 15 00:00:00 MST 2012 - null
+400000001821: Sun Jan 15 00:00:00 MST 2012 - null
+Product A: Sun Jan 15 00:00:00 MST 2012
+Product B: Sun Jan 15 00:00:00 MST 2012
+Product C: Sun Jan 15 00:00:00 MST 2012
+Product D: Sun Jan 15 00:00:00 MST 2012
+Product E: Sun Jan 15 00:00:00 MST 2012
+test3A
+test3B
+test3C
+test3C
+test3C
+Report period: Wed Feb 29 00:00:00 MST 2012 - Tue May 29 00:00:00 MDT 2012
+400000003139: Sun Mar 04 00:00:00 MST 2012 - null
+400000003146: Sun Mar 04 00:00:00 MST 2012 - null
+400000003153: Sun Mar 04 00:00:00 MST 2012 - null
+400000003160: Sun Mar 04 00:00:00 MST 2012 - null
+400000003177: Sun Mar 04 00:00:00 MST 2012 - null
+400000003184: Sun Mar 04 00:00:00 MST 2012 - null
+400000003191: Sun Mar 04 00:00:00 MST 2012 - null
+400000003207: Sun Mar 04 00:00:00 MST 2012 - null
+400000003214: Sun Mar 04 00:00:00 MST 2012 - null
+400000003221: Sun Mar 04 00:00:00 MST 2012 - null
+400000003238: Sun Mar 04 00:00:00 MST 2012 - null
+400000003245: Sun Mar 04 00:00:00 MST 2012 - null
+400000003252: Sun Mar 04 00:00:00 MST 2012 - null
+400000003269: Sun Mar 04 00:00:00 MST 2012 - null
+400000003276: Sun Mar 04 00:00:00 MST 2012 - null
+400000003283: Sun Mar 04 00:00:00 MST 2012 - null
+400000003290: Sun Mar 04 00:00:00 MST 2012 - null
+400000003306: Sun Mar 04 00:00:00 MST 2012 - null
+400000003313: Sun Mar 04 00:00:00 MST 2012 - null
+400000003320: Sun Mar 04 00:00:00 MST 2012 - null
+400000003337: Sun Mar 04 00:00:00 MST 2012 - null
+400000003344: Sun Mar 04 00:00:00 MST 2012 - null
+400000003351: Sun Mar 04 00:00:00 MST 2012 - null
+400000003368: Sun Mar 04 00:00:00 MST 2012 - null
+400000003375: Sun Mar 04 00:00:00 MST 2012 - null
+400000003382: Sun Mar 04 00:00:00 MST 2012 - null
+Product A: Sun Mar 04 00:00:00 MST 2012
+Product B: Sun Mar 04 00:00:00 MST 2012
+Product C: Sun Mar 04 00:00:00 MST 2012
+Product D: Sun Mar 04 00:00:00 MST 2012
+Product E: Sun Mar 04 00:00:00 MST 2012
+Mismatch in column 4 of Product C:
+	Trevor's result: 6/ 6
+	Chrys's result: 6/ 6.1
+Mismatch in column 4 of Product D:
+	Trevor's result: 12/ 12
+	Chrys's result: 12/ 12.1
+test14A
+test14B
+test14C
+test14D
+test15A
+test15B
+test15C
+test16A
+test16B
+test16C
+test16D
+test17A
+test17B
+Report period: Fri Aug 03 00:00:00 MDT 2012 - Mon Dec 03 08:50:02 MST 2012
+400000011714: Wed Oct 03 00:00:00 MDT 2012 - Mon Dec 03 08:50:02 MST 2012
+400000011721: Mon Sep 03 00:00:00 MDT 2012 - Mon Dec 03 08:50:02 MST 2012
+400000011738: Fri Aug 03 00:00:00 MDT 2012 - Mon Dec 03 08:50:02 MST 2012
+400000011745: Fri Aug 03 00:00:00 MDT 2012 - Mon Dec 03 08:50:02 MST 2012
+400000011752: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011769: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011776: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011783: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011790: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011806: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011813: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011820: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011837: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011844: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011851: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011868: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011875: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011882: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011899: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011905: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011912: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011929: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011936: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011943: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011950: Fri Aug 03 00:00:00 MDT 2012 - null
+400000011967: Fri Aug 03 00:00:00 MDT 2012 - null
+Product A: Fri Aug 03 00:00:00 MDT 2012
+Product B: Fri Aug 03 00:00:00 MDT 2012
+Product C: Fri Aug 03 00:00:00 MDT 2012
+Product D: Fri Aug 03 00:00:00 MDT 2012
+Product E: Fri Aug 03 00:00:00 MDT 2012
+Mismatch in column 8 of Product A:
+	Trevor's result: 91 days/ 122 days
+	Chrys's result: 91.33333333333333 days/ 122 days
+test17C
+Report period: Mon Sep 03 00:00:00 MDT 2012 - Mon Dec 03 08:50:03 MST 2012
+400000011974: Wed Oct 03 00:00:00 MDT 2012 - null
+400000011981: Wed Oct 03 00:00:00 MDT 2012 - null
+400000011998: Wed Oct 03 00:00:00 MDT 2012 - null
+400000012001: Wed Oct 03 00:00:00 MDT 2012 - null
+400000012018: Mon Sep 03 00:00:00 MDT 2012 - null
+400000012025: Mon Sep 03 00:00:00 MDT 2012 - null
+400000012032: Mon Sep 03 00:00:00 MDT 2012 - null
+400000012049: Mon Sep 03 00:00:00 MDT 2012 - null
+400000012056: Mon Sep 03 00:00:00 MDT 2012 - null
+400000012063: Mon Sep 03 00:00:00 MDT 2012 - null
+400000012070: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012087: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012094: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012100: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012117: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012124: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012131: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012148: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012155: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012162: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012179: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012186: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012193: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012209: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012216: Fri Aug 03 00:00:00 MDT 2012 - null
+400000012223: Fri Aug 03 00:00:00 MDT 2012 - null
+Product A: Fri Aug 03 00:00:00 MDT 2012
+Product B: Fri Aug 03 00:00:00 MDT 2012
+Product C: Fri Aug 03 00:00:00 MDT 2012
+Product D: Fri Aug 03 00:00:00 MDT 2012
+Product E: Fri Aug 03 00:00:00 MDT 2012
+------------- ---------------- ---------------
+
+Testcase: testBuildReport took 0.562 sec
+Testcase: test1A took 0.343 sec
+Testcase: test1B took 0.078 sec
+Testcase: test1C took 0.11 sec
+Testcase: test2A took 0.609 sec
+Testcase: test2B took 0.016 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at application.reports.directors.StatisticsReportDirectorTest.generateResults(StatisticsReportDirectorTest.java:364)
+	at application.reports.directors.StatisticsReportDirectorTest.test2B(StatisticsReportDirectorTest.java:761)
+
+Testcase: test2C took 0.016 sec
+Testcase: test3A took 0 sec
+	FAILED
+expected:<6[2 days/ 62] days> but was:<6[1 days/ 61] days>
+junit.framework.AssertionFailedError: expected:<6[2 days/ 62] days> but was:<6[1 days/ 61] days>
+	at application.reports.directors.StatisticsReportDirectorTest.test3A(StatisticsReportDirectorTest.java:806)
+
+Testcase: test3B took 0 sec
+	FAILED
+expected:<9[2 days/ 92] days> but was:<9[1 days/ 91] days>
+junit.framework.AssertionFailedError: expected:<9[2 days/ 92] days> but was:<9[1 days/ 91] days>
+	at application.reports.directors.StatisticsReportDirectorTest.test3B(StatisticsReportDirectorTest.java:838)
+
+Testcase: test3C took 0.015 sec
+Testcase: test4A took 0.016 sec
+	FAILED
+expected:<15[4 days/ 154] days> but was:<15[3 days/ 153] days>
+junit.framework.AssertionFailedError: expected:<15[4 days/ 154] days> but was:<15[3 days/ 153] days>
+	at application.reports.directors.StatisticsReportDirectorTest.test4A(StatisticsReportDirectorTest.java:903)
+
+Testcase: test4B took 0.016 sec
+	FAILED
+expected:<9[2 days/ 92] days> but was:<9[1 days/ 91] days>
+junit.framework.AssertionFailedError: expected:<9[2 days/ 92] days> but was:<9[1 days/ 91] days>
+	at application.reports.directors.StatisticsReportDirectorTest.test4B(StatisticsReportDirectorTest.java:935)
+
+Testcase: test5A took 0.031 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at application.reports.directors.StatisticsReportDirectorTest.test5A(StatisticsReportDirectorTest.java:965)
+
+Testcase: test5B took 0 sec
+Testcase: test5C took 0.109 sec
+Testcase: test6 took 0.016 sec
+Testcase: test7A took 0 sec
+Testcase: test7B took 0.016 sec
+Testcase: test8A took 0 sec
+Testcase: test8B took 0.015 sec
+Testcase: test9A took 0 sec
+Testcase: test9B took 0.016 sec
+Testcase: test9C took 0 sec
+Testcase: test10 took 0 sec
+Testcase: test11A took 0 sec
+Testcase: test11B took 0 sec
+Testcase: test11C took 0 sec
+Testcase: test12A took 0 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at application.reports.directors.StatisticsReportDirectorTest.test12A(StatisticsReportDirectorTest.java:1076)
+
+Testcase: test12B took 0 sec
+Testcase: test13A took 0.015 sec
+Testcase: test13B took 0 sec
+Testcase: test13C took 0 sec
+Testcase: test13D took 0.062 sec
+Testcase: test14A took 0.046 sec
+Testcase: test14B took 0.016 sec
+Testcase: test14C took 0 sec
+Testcase: test14D took 0.016 sec
+Testcase: test15A took 0.015 sec
+Testcase: test15B took 0.016 sec
+Testcase: test15C took 0.016 sec
+Testcase: test16A took 0.031 sec
+Testcase: test16B took 0.016 sec
+Testcase: test16C took 0.047 sec
+Testcase: test16D took 0 sec
+Testcase: test17A took 0 sec
+Testcase: test17B took 0.047 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at application.reports.directors.StatisticsReportDirectorTest.test17B(StatisticsReportDirectorTest.java:1477)
+
+Testcase: test17C took 0.031 sec

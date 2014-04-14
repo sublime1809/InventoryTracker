@@ -1,0 +1,338 @@
+
+
+<!-- ************************************************************************************** -->
+<!-- NOTE: junit.jar must be on the CLASSPATH for this build file to work correctly.        -->
+<!--       Running setclasspath (Linux) or setclasspath.bat (Windows) will do this for you. -->
+<!-- ************************************************************************************** -->
+
+
+<project name="Inventory Tracker" default="package" basedir=".">
+		
+	<description>Inventory Tracker</description>
+
+	<!-- ******************** -->
+	<!-- property definitions -->
+	<!-- ******************** -->
+	
+	<property name="src" location="src"/>
+	<property name="images" location="images"/>
+	<property name="build" location="build"/>
+	<property name="dist" location="dist"/>
+	<property name="lib" location="lib"/>
+	<property name="doc" location="doc"/>
+	
+	<property name="test-src" location="test-src"/>
+	<property name="test-build" location="test-build"/>
+	<property name="test-build" location="test-build"/>
+	<property name="test-reports" location="test-reports"/>
+	
+	<property name="checkstyle-home" location="${lib}/checkstyle-5.3"/>
+	<property name="style-reports" location="style-reports"/>
+	<property name="style-report-file" location="${style-reports}/checkstyle.txt"/>
+
+	<property name="cobertura-home" location="${lib}/cobertura-1.9.4.1"/>
+	<property name="coverage-build" location="coverage-build"/>
+	<property name="coverage-reports" location="coverage-reports"/>
+	<property name="coverage-data-file" location="${coverage-reports}/cobertura.ser"/>
+	
+	<property name="junit-home" location="${lib}/junit-4.8.2" />
+	
+	<property name="sqlite-home" location="${lib}/sqlitejdbc-v056" />
+	
+	<property name="itext-home" location="${lib}/itext-5.1.0" />
+	
+	<property name="json-home" location="${lib}/json-simple-1.1.1" />
+
+	<property name="import-data-file" location="import.xml"/>
+	<property name="export-data-file" location="export.xml"/>
+	<property name="product-classifier-file" location="product-classifiers.xml" />
+	<property name="door-icon-file" location="${images}/door-icon.png" />
+	
+
+	<!-- ********************* -->
+	<!-- classpath definitions -->
+	<!-- ********************* -->
+
+	<path id="checkstyle-classpath">
+		<fileset dir="${checkstyle-home}">
+			<include name="checkstyle-5.3-all.jar" />
+		</fileset>
+	</path>
+
+	<path id="cobertura-classpath">
+		<fileset dir="${cobertura-home}">
+			<include name="cobertura.jar" />
+		</fileset>
+		<fileset dir="${cobertura-home}/lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	
+	<path id="junit-classpath">
+		<fileset dir="${junit-home}">
+			<include name="junit-4.8.2.jar" />
+		</fileset>
+	</path>
+	
+	<path id="sqlite-classpath">
+		<fileset dir="${sqlite-home}">
+			<include name="sqlitejdbc-v056.jar" />
+		</fileset>
+	</path>
+	
+	<path id="itext-classpath">
+		<fileset dir="${itext-home}">
+			<include name="itextpdf-5.1.0.jar" />
+		</fileset>
+	</path>
+	
+	<path id="json-classpath">
+		<fileset dir="${json-home}">
+			<include name="json-simple-1.1.1.jar" />
+		</fileset>
+	</path>
+
+
+	<!-- ***************** -->
+	<!-- task definintions -->
+	<!-- ***************** -->
+
+	<taskdef classpathref="checkstyle-classpath" resource="checkstyletask.properties"/>
+
+	<taskdef classpathref="cobertura-classpath" resource="tasks.properties"/>
+
+	
+	<!-- ******* -->
+	<!-- targets -->
+	<!-- ******* -->
+
+	<target name="init">
+		<tstamp/>
+		<mkdir dir="${build}"/>
+		<mkdir dir="${dist}"/>
+		<mkdir dir="${test-build}"/>
+		<mkdir dir="${test-reports}"/>
+		<mkdir dir="${style-reports}"/>
+		<mkdir dir="${coverage-build}"/>
+		<mkdir dir="${coverage-reports}"/>
+		<mkdir dir="${doc}"/>
+	</target>
+		
+	<target name="clean"
+        description="clean build files" >
+		<delete dir="${build}"/>
+		<delete dir="${dist}"/>
+		<delete dir="${test-build}"/>
+		<delete dir="${test-reports}"/>
+		<delete dir="${style-reports}"/>
+		<delete dir="${coverage-build}"/>
+		<delete dir="${coverage-reports}"/>
+		<delete dir="${doc}"/>		
+	</target>
+	
+	<target name="compile" depends="init"
+        description="compile the source " >
+		<javac srcdir="${src}" destdir="${build}" debug="true" includeantruntime="true">
+			<classpath refid="itext-classpath" />
+			<classpath refid="json-classpath" />
+			<classpath refid="sqlite-classpath" />
+		</javac>
+	</target>
+	
+	<property name="itext.jar" value="lib/itext-5.1.0/itextpdf-5.1.0.jar"/>
+	<property name="json.jar" value="lib/json-simple-1.1.1/json-simple-1.1.1.jar"/>
+	<property name="sqlite.jar" value="lib/sqlitejdbc-v056/sqlitejdbc-v056.jar"/>
+	
+	<target name="package" depends="compile"
+        description="package the jar file" >
+		<mkdir dir="${dist}/lib"/>
+		<copy file="${door-icon-file}" todir="${build}/images"/>
+		<copy todir="${dist}/lib">
+			<fileset dir=".">
+				<include name="lib/**"/>
+				<exclude name="lib/proguard-4.8/**"/>
+				<exclude name="**/_svn"/>
+				<exclude name="**/_svn/**"/>
+			</fileset>
+		</copy>
+		<jar jarfile="${dist}/lib/inventory-tracker.jar" basedir="${build}" 
+				excludes="**/*Taglet*.class **/*StudentVersion*.class **/*WGet*.class">
+			<manifest>
+				<attribute name="Main-Class" value="gui.main.GUI"/>
+				<attribute name="Class-Path" 
+					value="${sqlite.jar} ${itext.jar} ${json.jar}"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="run" depends="package"
+		description="run program with serialization database">
+		<java classname="gui.main.GUI" fork="yes">
+			<sysproperty key="com.sun.management.jmxremote" value=""/>
+			<assertions>
+				<enable/>
+			</assertions>
+			<classpath>
+				<pathelement location="${dist}/lib/inventory-tracker.jar"/>
+			</classpath>
+		</java>
+	</target>
+	
+	<target name="run-sql" depends="package"
+			description="run program with SQL database">
+			<java classname="gui.main.GUI" fork="yes">
+				<sysproperty key="com.sun.management.jmxremote" value=""/>
+				<assertions>
+					<enable/>
+				</assertions>
+				<classpath>
+					<pathelement location="${dist}/lib/inventory-tracker.jar"/>
+				</classpath>
+				<arg value="-sql"/>
+			</java>
+		</target>
+	
+	<target name="import" depends="package"
+		description="import data from XML file into serialization database">
+		<java classname="tools.Importer" fork="yes">
+			<arg value="${import-data-file}"/>
+			<assertions>
+				<enable/>
+			</assertions>
+			<classpath>
+				<pathelement location="${dist}/lib/inventory-tracker.jar"/>
+			</classpath>
+		</java>
+	</target>
+	
+	<target name="import-sql" depends="package"
+		description="import data from XML file into SQL database">
+		<java classname="tools.Importer" fork="yes">
+			<arg value="-sql"/>
+			<arg value="${import-data-file}"/>
+			<assertions>
+				<enable/>
+			</assertions>
+			<classpath>
+				<pathelement location="${dist}/lib/inventory-tracker.jar"/>
+			</classpath>
+		</java>
+	</target>
+	
+	<target name="export" depends="package"
+		description="export data from serialization database into XML file">
+		<java classname="tools.Exporter" fork="yes">
+			<arg value="${export-data-file}"/>
+			<assertions>
+				<enable/>
+			</assertions>
+			<classpath>
+				<pathelement location="${dist}/lib/inventory-tracker.jar"/>
+			</classpath>
+		</java>
+	</target>
+	
+	<target name="export-sql" depends="package"
+		description="export data from SQL database into XML file">
+		<java classname="tools.Exporter" fork="yes">
+			<arg value="-sql"/>
+			<arg value="${export-data-file}"/>
+			<assertions>
+				<enable/>
+			</assertions>
+			<classpath>
+				<pathelement location="${dist}/lib/inventory-tracker.jar"/>
+			</classpath>
+		</java>
+	</target>
+	
+	<target name="instrument" depends="compile"
+		description="instrument class files for code coverage analysis">
+		<cobertura-instrument todir="${coverage-build}"
+			datafile="${coverage-data-file}">
+			<fileset dir="${build}">
+				<include name="**/*.class"/>
+			</fileset>
+		</cobertura-instrument>
+	</target>
+	
+	<target name="compile-tests" depends="instrument"
+		description="compile unit tests " >
+		<javac srcdir="${test-src}" destdir="${test-build}" debug="true">
+			<classpath>
+				<pathelement location="${coverage-build}"/>
+				<pathelement location="${build}"/>
+			</classpath>
+			<classpath refid="junit-classpath" />
+			<classpath refid="cobertura-classpath" />
+		</javac>
+	</target>
+	
+	<target name="test" depends="compile-tests"
+		description="run unit tests">
+		<junit fork="no" printsummary="yes" haltonfailure="no">
+			<jvmarg value="-XX:-UseSplitVerifier"/>
+			<classpath>
+				<pathelement location="${coverage-build}"/>
+				<pathelement location="${build}"/>
+				<pathelement location="${test-build}"/>
+			</classpath>
+			<classpath refid="cobertura-classpath" />
+			<classpath refid="junit-classpath" />
+			<classpath refid="itext-classpath" />
+			<classpath refid="json-classpath" />
+			<classpath refid="sqlite-classpath" />
+
+			<sysproperty key="net.sourceforge.cobertura.datafile"
+				value="${coverage-data-file}"/>
+			
+			<formatter type="plain"/>
+			
+			<batchtest fork="yes" todir="${test-reports}">
+				<fileset dir="${test-src}">
+					<include name="**/*.java"/>
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+	
+	<target name="coverage" depends="test"
+		description="generate unit test coverage report">
+		<cobertura-report srcdir="${src}" destdir="${coverage-reports}"
+			datafile="${coverage-data-file}"/>
+	</target>
+	
+	<target name="checkstyle" depends="compile"
+		description="analyze design and coding style">
+		<checkstyle config="checkstyle.xml">
+			<fileset dir="src" includes="**/*.java">
+				<exclude name="gui/inventory/InventoryView.java"/>
+				<exclude name="tools/Exporter.java"/>
+				<exclude name="tools/Importer.java"/>
+			</fileset>
+			<formatter type="plain" toFile="${style-report-file}"/>
+			<classpath>
+				<pathelement location="${build}"/>
+			</classpath>
+		</checkstyle>
+	</target>
+	
+	<target name="doc" depends="compile"
+		description="generate javadoc documentation">
+		<javadoc destdir="${doc}" Package="true">
+			<classpath refid="itext-classpath" />
+			<classpath refid="json-classpath" />
+			<packageset dir="${src}">
+				<include name="common/**"/>
+				<include name="application/**"/>
+				<include name="gui/**"/>
+			</packageset>
+			<taglet name="tools.PreTaglet" path="${build}"/>
+			<taglet name="tools.PostTaglet" path="${build}"/>
+			<taglet name="tools.InvariantTaglet" path="${build}"/>
+		</javadoc>
+	</target>
+
+</project>
+
+

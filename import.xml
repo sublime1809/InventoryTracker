@@ -1,0 +1,151 @@
+
+<inventory-tracker>
+	<products>
+		<product barcode="041710112881" description="Crush Soda - Orange" creation-date="05/14/2011" size="67 fluid ounces" supply="6" shelf-life="0" />
+		<product barcode="049000037197" description="Sprite Soda - Lemon-Lime Zero Sugar" creation-date="05/14/2011" size="20 fluid ounces" supply="24" shelf-life="0" />
+		<product barcode="035000741264" description="Colgate Toothpaste - Total Whitening" creation-date="05/14/2011" size="6 ounces" supply="4" shelf-life="24" />
+		<product barcode="037000307570" description="Crest Extra Whitening Toothpaste" creation-date="05/14/2011" size="6.2 ounces" supply="4" shelf-life="24" />
+		<product barcode="051000012517" description="Campbell's Soup - Condensed Chicken Noodle" creation-date="05/14/2011" size="10.75 ounces" supply="0" shelf-life="24" />
+		<product barcode="041196740745" description="Progresso Soup - Chicken &amp; Wild Rice" creation-date="05/14/2011" size="18.5 ounces" supply="0" shelf-life="18" />
+	</products>
+	<storage-units>
+		<storage-unit name="Basement Closet">
+			<products>
+				<product barcode="041710112881" />
+				<product barcode="049000037197" />
+			</products>
+			<items>
+				<item product="041710112881" entry-date="05/28/2011" />
+				<item product="041710112881" entry-date="05/28/2011" />
+				<item product="041710112881" entry-date="05/28/2011" />
+				<item product="049000037197" entry-date="06/04/2011" />
+				<item product="049000037197" entry-date="06/04/2011" />
+				<item product="049000037197" entry-date="06/04/2011" />
+			</items>
+			<product-groups>
+				<product-group name="Soup" supply="30 count">			
+					<products>
+						<product barcode="051000012517" />
+						<product barcode="041196740745" />
+					</products>
+					<items>
+						<item product="051000012517" entry-date="05/28/2011" />
+						<item product="051000012517" entry-date="05/28/2011" />
+						<item product="051000012517" entry-date="05/28/2011" />
+						<item product="041196740745" entry-date="06/04/2011" />
+						<item product="041196740745" entry-date="06/04/2011" />
+						<item product="041196740745" entry-date="06/04/2011" />
+					</items>
+				</product-group>
+				<product-group name="Toothpaste" supply="0 count">
+					<product-groups>
+						<product-group name="Colgate" supply="0 count">			
+							<products>
+								<product barcode="035000741264" />
+							</products>
+							<items>
+								<item product="035000741264" entry-date="05/28/2011" />
+								<item product="035000741264" entry-date="05/28/2011" />
+							</items>
+						</product-group>
+						<product-group name="Crest" supply="0 count">			
+							<products>
+								<product barcode="037000307570" />
+							</products>
+							<items>
+								<item product="037000307570" entry-date="06/04/2011" />
+								<item product="037000307570" entry-date="06/04/2011" />
+								<item product="037000307570" entry-date="06/04/2011" />
+							</items>
+						</product-group>
+					</product-groups>			
+				</product-group>
+			</product-groups>
+		</storage-unit>	
+		
+		<storage-unit name="Food Storage Room">
+			<products>
+				<product barcode="041710112881" />
+				<product barcode="049000037197" />
+			</products>
+			<items>
+				<item product="041710112881" entry-date="05/28/2011" />
+				<item product="041710112881" entry-date="05/28/2011" />
+				<item product="041710112881" entry-date="05/28/2011" />
+				<item product="049000037197" entry-date="06/04/2011" />
+				<item product="049000037197" entry-date="06/04/2011" />
+				<item product="049000037197" entry-date="06/04/2011" />
+			</items>
+			<product-groups>
+				<product-group name="Soup" supply="30 count">			
+					<products>
+						<product barcode="051000012517" />
+						<product barcode="041196740745" />
+					</products>
+					<items>
+						<item product="051000012517" entry-date="05/28/2011" />
+						<item product="051000012517" entry-date="05/28/2011" />
+						<item product="051000012517" entry-date="05/28/2011" />
+						<item product="041196740745" entry-date="06/04/2011" />
+						<item product="041196740745" entry-date="06/04/2011" />
+						<item product="041196740745" entry-date="06/04/2011" />
+					</items>
+				</product-group>
+				<product-group name="Toothpaste" supply="0 count">
+					<product-groups>
+						<product-group name="Colgate" supply="0 count">			
+							<products>
+								<product barcode="035000741264" />
+							</products>
+							<items>
+								<item product="035000741264" entry-date="05/28/2011" />
+								<item product="035000741264" entry-date="05/28/2011" />
+							</items>
+						</product-group>
+						<product-group name="Crest" supply="0 count">			
+							<products>
+								<product barcode="037000307570" />
+							</products>
+							<items>
+								<item product="037000307570" entry-date="06/04/2011" />
+								<item product="037000307570" entry-date="06/04/2011" />
+								<item product="037000307570" entry-date="06/04/2011" />
+							</items>
+						</product-group>
+					</product-groups>			
+				</product-group>
+			</product-groups>
+		</storage-unit>
+	</storage-units>
+	
+	<item-history>
+		<item product="041710112881" entry-date="05/14/2011" exit-time="05/15/2011 12:00 PM" />
+		<item product="035000741264" entry-date="05/14/2011" exit-time="05/15/2011 12:01 PM" />
+
+		<item product="051000012517" entry-date="05/14/2011" exit-time="05/17/2011 12:00 PM" />
+		<item product="049000037197" entry-date="05/14/2011" exit-time="05/17/2011 12:01 PM" />
+
+		<item product="037000307570" entry-date="05/14/2011" exit-time="05/19/2011 12:00 PM" />
+		<item product="041196740745" entry-date="05/14/2011" exit-time="05/19/2011 12:01 PM" />
+
+		<item product="037000307570" entry-date="05/14/2011" exit-time="05/21/2011 12:00 PM" />
+		<item product="041710112881" entry-date="05/14/2011" exit-time="05/21/2011 12:01 PM" />
+
+		<item product="035000741264" entry-date="05/14/2011" exit-time="05/23/2011 12:00 PM" />
+		<item product="041196740745" entry-date="05/14/2011" exit-time="05/23/2011 12:01 PM" />
+
+		<item product="041710112881" entry-date="05/21/2011" exit-time="05/25/2011 12:00 PM" />
+		<item product="049000037197" entry-date="05/21/2011" exit-time="05/25/2011 12:01 PM" />
+
+		<item product="051000012517" entry-date="05/21/2011" exit-time="05/27/2011 12:00 PM" />
+		<item product="051000012517" entry-date="05/21/2011" exit-time="05/27/2011 12:01 PM" />
+
+		<item product="035000741264" entry-date="05/21/2011" exit-time="05/29/2011 12:00 PM" />
+		<item product="049000037197" entry-date="05/21/2011" exit-time="05/29/2011 12:01 PM" />
+
+		<item product="041196740745" entry-date="05/21/2011" exit-time="05/31/2011 12:00 PM" />
+		<item product="037000307570" entry-date="05/21/2011" exit-time="05/31/2011 12:01 PM" />
+	</item-history>
+
+</inventory-tracker>
+

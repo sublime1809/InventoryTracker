@@ -1,0 +1,25 @@
+Testsuite: application.storage.ProductContainerTest
+Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.203 sec
+------------- Standard Output ---------------
+equals
+setName
+getName
+getParent
+setParent
+getChildCount
+getSubContainers
+addSubContainer
+removeSubContainer
+findContainer
+------------- ---------------- ---------------
+
+Testcase: testEquals took 0.125 sec
+Testcase: testSetName took 0 sec
+Testcase: testGetName took 0 sec
+Testcase: testGetParent took 0 sec
+Testcase: testSetParent took 0 sec
+Testcase: testGetChildCount took 0 sec
+Testcase: testGetSubContainers took 0 sec
+Testcase: testAddSubContainer took 0.016 sec
+Testcase: testRemoveSubContainer took 0 sec
+Testcase: testFindContainer took 0 sec

@@ -1,0 +1,8 @@
+Testsuite: application.product.ProductsManagerTest
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0.203 sec
+
+Testcase: testAddNewProduct took 0.156 sec
+Testcase: testCanAddProduct took 0 sec
+Testcase: testRemoveEntirely took 0 sec
+Testcase: testCanRemove took 0 sec
+Testcase: testHasItems took 0 sec

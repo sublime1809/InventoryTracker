@@ -1,0 +1,7 @@
+Testsuite: application.plugins.PluginRegistryTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.031 sec
+------------- Standard Output ---------------
+loadPlugins
+------------- ---------------- ---------------
+
+Testcase: testLoadPlugins took 0.015 sec

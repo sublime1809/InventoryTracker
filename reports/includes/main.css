@@ -1,0 +1,18 @@
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+table td, table th {
+	border: 1px solid black;
+	width: 125px;
+}
+
+ul.dash li:before {
+    content:"-";
+}
+
+ul.circle {
+    list-style-type:circle
+}

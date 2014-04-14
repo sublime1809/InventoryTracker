@@ -1,0 +1,4 @@
+application.plugins.UPCDatabasePlugin
+application.plugins.SearchUPCPlugin
+application.plugins.GooglePlugin
+application.plugins.UPCDatabasePluginORG
